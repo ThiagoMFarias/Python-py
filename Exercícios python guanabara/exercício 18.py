@@ -1,5 +1,5 @@
-#esse eu não soube fazer pois as funções não estavam dando o calor correto. 
-#tive que converter de radianos para graus. 
+# Esse eu não soube fazer pois as funções não estavam dando o calor correto. 
+# Tive que converter de radianos para graus. 
 import math
 
 angulo = float(input('Qual o ângulo que você quer calcular o seno, cosseno e tangente?\n'))
