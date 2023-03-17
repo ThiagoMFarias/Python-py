@@ -3,7 +3,7 @@
  
  ## Exercícios listados:
  
- - [ x ] **Exercício 1**
+ [ x ] **Exercício 1**
  - [ x ] **Exercício 2**
  - [ x ] **Exercício 3**
  - [ ] **Exercício 4**
