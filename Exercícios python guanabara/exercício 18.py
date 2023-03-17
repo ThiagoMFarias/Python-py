@@ -1,4 +1,4 @@
-# Esse eu não soube fazer pois as funções não estavam dando o calor correto. 
+# Esse eu não soube fazer pois as funções não estavam dando o valor correto. 
 # Tive que converter de radianos para graus. 
 import math
 

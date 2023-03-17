@@ -4,8 +4,9 @@ Created on Thu Oct 20 14:12:27 2022
 
 @author: faria
 """
+# Faça um programa que leia um número inteiro qualquer e mostre na tela asua tabuada!
 
-n= int(input('Digite um némero para ver sua tabuada: '))
+n = int(input('Digite um némero para ver sua tabuada: '))
 print('-'*12)
 print('{} x  1 = {}'.format(n, n*1))
 print('{} x  2 = {}'.format(n, n*2))
