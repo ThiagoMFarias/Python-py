@@ -8,6 +8,8 @@
  - [x] **Exercício 2**
  - [x] **Exercício 3**
  - [x] **Exercício 4**
+ 
+ * Aula 7
  - [x] **Exercício 5**
  - [x] **Exercício 6**
  - [x] **Exercício 7**
@@ -16,3 +18,4 @@
  - [x] **Exercício 10**
  - [x] **Exercício 11**
  - [x] **Exercício 12**
+ - [x] **Exercício 13**
