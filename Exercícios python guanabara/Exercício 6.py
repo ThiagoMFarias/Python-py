@@ -8,3 +8,7 @@ rq = n1 ** (1/2)
 print('O dobro do número {} é {}'.format(n1, do))
 print('O triplo do número {} é {}'.format(n1, tri))
 print('A raiz quadrada do número {} é {}'.format(n1, rq))
+
+# print('O dobro do número {} é {}'.format(n1, (n1*2)))
+# print('O triplo do número {} é {}'.format(n1, (n1*3)))
+# print('A raiz quadrada do número {} é {}'.format(n1, (n1**(1/2))))
