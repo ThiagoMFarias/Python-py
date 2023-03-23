@@ -19,3 +19,5 @@
  - [x] **Exercício 11**
  - [x] **Exercício 12**
  - [x] **Exercício 13**
+ - [x] **Exercício 14**
+ - [x] **Exercício 15**  
