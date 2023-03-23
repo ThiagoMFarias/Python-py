@@ -1,5 +1,7 @@
 import math
 
+# Faça um programa que leia o cateto oposto e o cateto adjacente e calcule a hipotenusa
+
 cat_op = float(input('Qual o cateto oposto do triângulo? '))
 cat_adj = float(input('Qual o cateto adjacente do triângulo? '))
 hipotenusa = math.hypot(cat_op, cat_adj)
