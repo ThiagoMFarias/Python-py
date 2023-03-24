@@ -21,7 +21,7 @@ if alunos == 5:
 if alunos == 6:
     print('O aluno escolhido foi Júnior')
 
-#Outra maneira de fazer é:
+# Outra maneira de fazer é:
     
 import random
 
@@ -33,5 +33,3 @@ a4 = str(input('Digite o quarto aluno: '))
 lista = [a1, a2, a3, a4]
 escolhido = random.choice(lista)
 print('O aluno escolhido foi {}'.format(escolhido))
-
-
