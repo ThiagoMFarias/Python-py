@@ -1,5 +1,7 @@
 # Esse eu não soube fazer pois as funções não estavam dando o valor correto. 
 # Tive que converter de radianos para graus. 
+# Faça um progrma que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse ângulo.
+
 import math
 
 angulo = float(input('Qual o ângulo que você quer calcular o seno, cosseno e tangente?\n'))
