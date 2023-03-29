@@ -5,12 +5,15 @@ Created on Sat Jan 14 15:52:06 2023
 @author: Thiago
 """
 
-# Crie um programa que leia o nome de uma cidade e diga se ela começa ou não 
-# com nome 'Santo"
+# Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com nome 'Santo'
 
-city = input('Digite o nome de uma cidade: ')
+city = input('Digite o nome de uma cidade: ').strip().capitalize()
 
 if city[0:5] == 'Santo':
     print('O nome da cidade começa com Santo')
 else: 
     print('O nome da cidade é {}'.format(city))
+
+# Outra forma:
+cid = str(input('Em que cidade você nasceu?'))
+print(cid[:5] == 'Santo')
