@@ -29,5 +29,3 @@
  - [x] **Exercício 19**
  - [x] **Exercício 20**
  - [x] **Exercício 21**
-
-  * Aula 9
