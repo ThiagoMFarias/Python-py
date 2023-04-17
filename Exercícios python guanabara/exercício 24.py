@@ -7,7 +7,7 @@ Created on Sat Jan 14 15:52:06 2023
 
 # Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com nome 'Santo'
 
-city = input('Digite o nome de uma cidade: ').strip().capitalize()
+city = str(input('Digite o nome de uma cidade: ')).strip().capitalize()
 
 if city[0:5] == 'Santo':
     print('O nome da cidade começa com Santo')
