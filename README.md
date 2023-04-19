@@ -29,3 +29,22 @@
  - [x] **Exercício 19**
  - [x] **Exercício 20**
  - [x] **Exercício 21**
+ 
+  * Aula 9
+ - [x] **Exercício 21**
+ - [x] **Exercício 22**
+ - [x] **Exercício 23**
+ - [x] **Exercício 24**
+ - [x] **Exercício 25**
+ - [x] **Exercício 26**
+ - [x] **Exercício 27**
+ 
+  * Aula 10
+ - [x] **Exercício 28**
+ - [x] **Exercício 29**
+ - [x] **Exercício 30**
+ - [x] **Exercício 31**
+ - [x] **Exercício 32**
+ - [x] **Exercício 33**
+ - [x] **Exercício 34**
+ - [x] **Exercício 35**
