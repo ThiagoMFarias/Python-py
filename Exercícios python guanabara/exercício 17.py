@@ -7,7 +7,7 @@ cat_adj = float(input('Qual o cateto adjacente do triângulo? '))
 hipotenusa = math.hypot(cat_op, cat_adj)
 print('O valor da hipotenusa é {:.2f}'.format(hipotenusa))
 
-# outra forma de fazer:    
+# Outra forma de fazer:    
 co = float(input('Qual o cateto oposto? '))
 ca = float(input('qual o cateto adjacente? '))
 hi = (co ** 2 + ca ** 2) ** (1/2)

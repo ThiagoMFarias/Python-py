@@ -13,7 +13,7 @@ tan1 = math.radians(angulo)
 tangente = math.tan(tan1)
 print('O valor do seno é {}, do cosseno é {} e da tangente é {}.'.format(seno, cosseno, tangente))
 
-#outra forma de fazer é:
+# Outra forma de fazer é:
 import math
 
 ângulo = int(input('Qual o ângulo você quer calcular o seno, cosseno e tangente?\n'))

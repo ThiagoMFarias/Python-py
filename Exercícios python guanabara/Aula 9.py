@@ -1,18 +1,19 @@
 # Fatiamento:
 
 frase = 'Curso em Vídeo Python'
-print(frase[9])
-print(frase[9:13]) # O 13 não entra.
-print(frase[9:65])
-print(frase[9:21:2])
-print(frase[:5])
-print(frase[15:])
+
+print(frase[9]) # Só imprimie o índide (caractere).
+print(frase[9:13]) # O 13 não entra. O último carater não entra na contagem. É sempre um a menos no final.
+print(frase[9:65]) # Vai até o final mesmo que passe do número do índice.
+print(frase[9:21:2]) # Vai do 9 ao 21 de dois em dois.
+print(frase[:5]) # Vai até o final menos 1.
+print(frase[15:]) # Vai até o final da string.
 print(frase[9::3])
 
 # Análise:
 print(len(frase))
 print(frase.count('o'))
-print(frase.count('o', 0, 13))
+print(frase.count('o', 0, 13)) # Pedindo pra contar já com fatiamento.
 print(frase.find('Terminator')) # Quando eu procuro uma string e ela não existe, é retornado o valor '-1'.
 print('curso' in frase)
 
@@ -29,8 +30,15 @@ print(frase.lstrip()) # Remove só os espaços da esquerda.
 
 # Divisão:
 print(frase.split()) # Transforma cada palavra em um novo índice: 'Curso' = 0, 'em' = 1, 'Vídeo' = 2, 'Python' = 3
+dividido = frase.split()
+print(dividido[0])
+
+# Junção:
 print('-'.join(frase))
 
 # Teste
-
 print(frase.lower().find('curso'))
+
+#salvando um replace
+frase=frase.replace('com', 'através')
+print(frase)

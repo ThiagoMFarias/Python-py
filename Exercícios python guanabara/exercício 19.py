@@ -21,8 +21,7 @@ if alunos == 5:
 if alunos == 6:
     print('O aluno escolhido foi Júnior')
 
-# Outra maneira de fazer é:
-    
+# Outra maneira de fazer é:    
 import random
 
 a1 = str(input('Digite  primeiro aluno: '))
