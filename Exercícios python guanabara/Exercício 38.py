@@ -8,7 +8,7 @@ ent1 = int(input('Digite o segundo número inteiro: '))
 
 if ent > ent1:
     print('O primeiro valor é o maior.')
-if ent < ent1: 
+elif ent < ent1: 
     print('O segundo valor é o maior.')
-if ent == ent1:
+else:
     print('Os dois valores são iguais.')

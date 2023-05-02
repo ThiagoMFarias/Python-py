@@ -10,11 +10,10 @@ media = float(nota_1 + nota_2)/2
 if media < 5:
     print('Sua média é {}'.format(media))
     print("Estude mais. Você foi REPROVADO!")
-
-if 5 <= media <= 6.9:
+elif 5 <= media <= 6.9:
     print('Sua média é {}'.format(media))
     print("Estude mais. Você está de RECUPERAÇÃO!")
-
-if media >= 7:
+else:
     print('Sua média é {}'.format(media))
     print('PARABÉNS! VOCÊ PASSOU DE ANO!')
+    

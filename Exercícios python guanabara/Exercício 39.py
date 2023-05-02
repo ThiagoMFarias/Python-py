@@ -12,11 +12,10 @@ alistamento = ano_atual - ano_nasci
 
 if alistamento <= 17:
     print('Você ainda vai servir ao país nas Forças Armadas!')
-
-if alistamento == 18:
+elif alistamento == 18:
     print('Parabéns.... chegou sua hora de se alistar!')
-
-if alistamento > 18:
+else:
     print('===========' * 9)
     print('   Você já passou do tempo para se alistar! Se não fez sua obrigação, corra, ou vai pagar multa.')
     print('===========' * 9)
+    

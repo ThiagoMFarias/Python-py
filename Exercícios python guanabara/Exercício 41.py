@@ -17,15 +17,11 @@ idade = ano_atual - ano_nasci
 
 if idade < 9:
     print('Sua categoria é MIRIM.')
-
-if 9 <= idade <14:
+elif 9 <= idade <14:
     print('Sua categoria é INFANTIL.')
-
-if 14 <= idade < 19:
+elif 14 <= idade < 19:
     print('Sua categoria é JUNIOR.')
-
-if 19 <= idade < 20:
+elif 19 <= idade < 20:
     print('Sua categoria é SÊNIOR.')
-
-if idade >= 20:
+else:
     print('Sua categoria é MASTER.') 
