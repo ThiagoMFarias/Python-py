@@ -7,13 +7,13 @@ print(frase[9:13]) # O 13 não entra. O último carater não entra na contagem. 
 print(frase[9:65]) # Vai até o final mesmo que passe do número do índice.
 print(frase[9:21:2]) # Vai do 9 ao 21 de dois em dois.
 print(frase[:5]) # Extrairá os primeiros cinco caracteres da string. Lembrando que o índice começa com 0.
-print(frase[15:]) # Vai até o final da string.
-print(frase[9::3]) #Começa do índide 9 e vai até o final pulando de 3 em 3.
+print(frase[15:]) # Começa no 16º caractere e vai até o final da string.
+print(frase[9::3]) # Começa do índide 9 e vai até o final pulando de 3 em 3.
 
 # Análise:
 print(len(frase))
 print(frase.count('o'))
-print(frase.count('o', 0, 13)) # Pedindo pra contar já com fatiamento.
+print(frase.count('o', 0, 13)) # Pedindo pra contar já com fatiamento do índice 0 até o 13.
 print(frase.find('Terminator')) # Quando eu procuro uma string e ela não existe, é retornado o valor '-1'.
 print('curso' in frase) # Verifica se a string "curso" está na variável "frase". 
 

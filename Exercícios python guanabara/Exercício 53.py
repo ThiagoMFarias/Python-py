@@ -4,3 +4,4 @@ frase = input('Digite uma frase: ').strip().lower().split()
 print(frase)
 
 
+
