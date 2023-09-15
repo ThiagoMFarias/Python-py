@@ -33,3 +33,4 @@ if num1 >= num2 and num1 >= num3:
         menor4 = num3
         print('O maior número é {}'.format(maior4))
         print('O menor número é {}'.format(menor4))
+        

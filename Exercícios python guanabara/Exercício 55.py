@@ -1,6 +1,17 @@
 '''Faça um programa que leia o peso de cinco pessoas. No final moestre qual foi o maior oe menor peso lido'''
 
-cont = 0
-for i in range (0,6):
-    peso = int(input('Qual o seu peso em kilogramas? '))
-    
+maior = 0
+menor = 0
+for pessoa in range (1,6):
+    peso = float(input('Qual o  peso da {}ª em kilogramas? '.format(pessoa)))
+    if pessoa == 1:
+        maior = peso
+        menor = peso
+    else:
+        if peso > maior:
+            maior = peso
+        if peso < menor:
+            menor = peso
+
+print('O maior peso lido foi {}kg.'.format(maior))
+print('O menor peso lido foi {}kg.'.format(menor))

@@ -2,8 +2,16 @@
 1- A média de idade do grupo;
 2- Qual é o nome do homem mais velho;
 3- E quantas mulheres têm menos de 21 anos.'''
+from datetime import date
 
-for i in range(1,5):
+somaidade = 0
+mediaidade = 0
+for pessoa in range(1,5):
+    print('----- {}ª PESSOA -----'.format(pessoa))
     nome = input('Qual o seu nome? ')
     sexo = input('Qual o seu sexo? [M] para mulher e [H] para homem. ').upper()
     idade = int(input('Qual a sua idade? '))
+    somaidade += idade
+
+mediaidade = somaidade/4
+print('A média da idade do grupo é {}'.format(mediaidade))

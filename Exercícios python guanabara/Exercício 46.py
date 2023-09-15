@@ -2,7 +2,7 @@
 
 import time
 
-for i in range(10, -1, -1):
+for i in range(10, -1, -1): # o segundo '-1' é colocado porque eu queria que o contador fosse até 0. Se colocasse até 0, só iria até '1'.
     print(i)
     time.sleep(1)
 print('======' * 3)
