@@ -1,3 +1,5 @@
+# ESTRUTURA DE REPITIÇÃO COM VARIÁVEL DE CONTROLE
+
 for c in range(1, 6):
     print('Oi')
 print('FIM')
