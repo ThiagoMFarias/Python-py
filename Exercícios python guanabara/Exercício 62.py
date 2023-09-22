@@ -13,4 +13,11 @@ while an <= termo:
         print('{} |'.format(a1 + (an - 1) * r), end = ' ')
     an += 1
 
-resposta = print('\nsaaasasaa')
+resposta = str(input('\nVocê deseja mostrar mais termos dessa PA? [S/N]')).upper()
+
+bn = an
+if resposta == 'S':
+    num = int(input('Quantos termos a mais você gostaria de visualizar dessa PA? '))
+    while bn <= num:
+        if bn == num:
+            print('{}'.format(a1 + (bn - 1) * r), end = ' ')
