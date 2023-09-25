@@ -8,3 +8,5 @@ while sexo != 'M' and sexo != 'F':
     
 print('Parabéns! Seu código funciona!')
 print('Sexo válido:', sexo)
+
+# Se eu digitar na linha 5, após o upper(), "[0]", a variável vai captar apenas a primeira letra da palavra. Ou seja, mesmo se o usuário digitar "Masculino" ou "Feminino", ele vai captar apenas o "M" e/ou "F".

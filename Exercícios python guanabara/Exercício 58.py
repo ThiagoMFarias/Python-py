@@ -9,19 +9,21 @@ print('-=' * 20)
 
 num = randint(0, 11)
 jogador = ''
-cont = 0
+palpites  = 0
 
 while jogador != num:
     jogador = int(input('Tente adivinhar qual o número que o computador escolheu entre 0 e 10: '))
     print('PROCESSANDO...')
     time.sleep(1)
-    cont += 1
     if jogador == num:
         print('Parabéns! Você acertou o número que a máquina escolheu!')
-        
+    else: 
+        print('Número errado. Tente novamente.')
+        palpites += 1
+           
 print('O número escolhido pela máquina foi {}.'.format(num))
 
-if cont == 1:
-    print('Você tentou {} vez até acertar.'.format(cont))
+if palpites == 1:
+    print('Você tentou {} vez até acertar.'.format(palpites))
 else:
-    print('Você tentou {} vezes até acertar.'.format(cont))
+    print('Você tentou {} vezes até acertar.'.format(palpites))

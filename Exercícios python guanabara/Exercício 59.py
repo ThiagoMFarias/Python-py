@@ -34,8 +34,8 @@ while menu != 5:
             None
     elif menu == 4:
         print('Insira novos valores: ')
-        print(int(input('Insira o primeiro número: ')))
-        print(int(input('Insira o segundo valor: ')))
+        n1 = int(input('Insira o primeiro número: '))
+        n2 = int(input('Insira o segundo valor: '))
     elif menu == 5:
         print('Finalizando...')
         break
