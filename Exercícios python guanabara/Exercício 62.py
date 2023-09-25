@@ -29,4 +29,5 @@ while resposta != 'N':
                 cont += 1
                 an += 1
         resposta = str(input('\nVocê deseja mostrar mais termos dessa PA? [S/N]')).upper()
-print('Obrigado pela colaboração!')              
+print('Obrigado pela colaboração!')
+           
