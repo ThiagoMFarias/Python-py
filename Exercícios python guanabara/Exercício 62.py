@@ -15,9 +15,18 @@ while an <= termo:
 
 resposta = str(input('\nVocê deseja mostrar mais termos dessa PA? [S/N]')).upper()
 
-bn = an
-if resposta == 'S':
-    num = int(input('Quantos termos a mais você gostaria de visualizar dessa PA? '))
-    while bn <= num:
-        if bn == num:
-            print('{}'.format(a1 + (bn - 1) * r), end = ' ')
+while resposta != 'N':
+    if resposta == 'S':
+        cont = 0 
+        num = int(input('Quantos termos a mais você gostaria de visualizar dessa PA? '))
+        for cont in range(0, num):
+            if cont + 1 == num:
+                print('{}'.format(a1 + (an - 1) * r), end = ' ')
+                an += 1
+            else:
+                valor = '{} |'.format(int(a1 + (an - 1) * r))
+                print(valor, end = ' ')
+                cont += 1
+                an += 1
+        resposta = str(input('\nVocê deseja mostrar mais termos dessa PA? [S/N]')).upper()
+print('Obrigado pela colaboração!')              
