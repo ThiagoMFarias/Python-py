@@ -48,3 +48,39 @@
  - [x] **Exercício 33**
  - [x] **Exercício 34**
  - [x] **Exercício 35**
+
+  * Aula 12
+ - [x] **Exercício 36**
+ - [x] **Exercício 37**
+ - [x] **Exercício 38**
+ - [x] **Exercício 39**
+ - [x] **Exercício 40**
+ - [x] **Exercício 41**
+ - [x] **Exercício 42**
+ - [x] **Exercício 43**
+ - [x] **Exercício 44**
+ - [x] **Exercício 45**
+
+  * Aula 13
+ - [x] **Exercício 46**
+ - [x] **Exercício 47**
+ - [x] **Exercício 48**
+ - [x] **Exercício 49**
+ - [x] **Exercício 50**
+ - [x] **Exercício 51**
+ - [x] **Exercício 52**
+ - [x] **Exercício 53**
+ - [x] **Exercício 54**
+ - [x] **Exercício 55**
+ - [x] **Exercício 56**
+
+ * Aula 14
+ - [x] **Exercício 57**
+ - [x] **Exercício 58**
+ - [x] **Exercício 59**
+ - [x] **Exercício 60**
+ - [x] **Exercício 61**
+ - [x] **Exercício 62**
+ - [x] **Exercício 63**
+ - [x] **Exercício 64**
+ - [x] **Exercício 65**
