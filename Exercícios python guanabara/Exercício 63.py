@@ -5,14 +5,15 @@ print('==' * 10)
 print('Calculando Fibonacci')
 print('==' * 10)
 
-termo1, termo2 = 0, 1
-cont = 0
-while cont <= n:
-    if cont != n - 1:
-        print('{} |'.format(termo1), end = ' ')
-        proximo_termo = termo1 + termo2
-        termo1 = termo2
-        termo2 = proximo_termo
+ultimo, penultimo = 1, 1
+if (n == 1) or (n == 2):
+    print('O valor do fibonacci é "1".')
+else:
+    cont = 3
+    while cont <= n:
+        print('{} |'.format(penultimo), end = ' ')
+        proximo_termo = penultimo + ultimo
+        penultimo = ultimo
+        ultimo = proximo_termo
         cont += 1
-    else:
-        print('{}'.format(termo2))   
+    print('{}'.format(proximo_termo))
