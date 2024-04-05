@@ -16,7 +16,7 @@ for cont in range(0, len(tupla)):
     print(cont)
 for cont in range(0, len(tupla)):
     print(tupla)
-for cont in range (0, len(tupla)): #É igual a letra A. exibe o mesmo resultado. 
+for cont in range (0, len(tupla)): # É igual a letra A. exibe o mesmo resultado. 
     print(tupla[cont])
 for cont in range (0, len(tupla)):
     print(f'Vou comer {tupla[cont]} na posição {cont}.')
@@ -37,4 +37,4 @@ print(c.index(2, 4)) # a partir da posição 4. Eu chamo isso de deslocamento
 
 pessoa = ('Gustavo', 39, 'M', 72.00) # posso ter todo tipo de dado, string, int, float, etc.
 del(pessoa)
-print(pessoa) #como eu apaguei a variável ela não existe mais. 
+print(pessoa) # como eu apaguei a variável ela não existe mais. 
