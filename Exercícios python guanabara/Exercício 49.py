@@ -1,4 +1,4 @@
-'''refaça o desafio 009, mostrando a tabuada de um número que o usuário escolher, só que agora com laço for.'''
+'''Refaça o desafio 009, mostrando a tabuada de um número que o usuário escolher, só que agora com laço for.'''
 
 print('--' * 17)
 print(' Bem vindo a TABUADA com laço FOR.')
