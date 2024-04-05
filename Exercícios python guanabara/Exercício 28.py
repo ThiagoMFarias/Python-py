@@ -16,3 +16,4 @@ if descubra == num:
 else:
     print('A máquina escolheu o número {}'.format(num))
     print('YOU LOSE!')
+    
