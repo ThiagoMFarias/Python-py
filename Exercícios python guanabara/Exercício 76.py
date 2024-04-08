@@ -2,5 +2,6 @@
 
 produto = ('maçã', 15.82, 'laranja', 8.93, 'uva', 7.89)
 print('-' * 50)
-print(f'LISTAGEM DE PREÇO'.center(60))
+print(f'LISTAGEM DE PREÇO'.center(50))
 print('-' * 50)
+

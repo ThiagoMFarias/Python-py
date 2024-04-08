@@ -9,12 +9,11 @@ while True:
         print(f'Você digitou o número {números[num]}.')
         while True:
             resp = input('Quer continuar? [S/N]').strip().upper()[0]
-            if resp in 'SN':
+            if resp == 'S' or 'N':
                 break
-            print('Digite uma resposta válida.')
-    else:
-        print('Tente novamente.', end = ' ')
-    
-    
-
-    
+            else:
+                print('Digite uma resposta válida.')
+    if resp == 'N':
+        break
+    if num < 0 or num >20:
+        print('Tente novamente. Digite um número válido!')
