@@ -9,7 +9,7 @@ times = ('Palmeiras', 'Grêmio', 'Atlético Mineiro', 'Flamengo', 'Botafogo', 'B
 print(f'Os cinco primeiros colocados do brasileirão série A são {times[0:5]}.')
 print(f'Os últimos colocados da tabela são {times[16:21]}')
 print(f'os últimos colocados da tabela são {times[-4:]}')
-print(f'Os times que participaram do Campeonato Brasileiro série A em 2023 foram {sorted(times)}')
+print(f'Os times que participaram do Campeonato Brasileiro série A em 2023 foram {sorted(times)}') # Repare que o sorted é uma função embutida em python que retorna uma nova tupla ordenada
 print('O time da Chapecoense não se encontra jogando na série A do brasileirão.')
 
 # Se eu quiser achar a  posição de qualquer time?

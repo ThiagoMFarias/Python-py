@@ -9,4 +9,8 @@ print('--'*30)
 time.sleep(2)
 
 for vogais in range(0, len(palavras)):
-    print(f'Na palavra {palavras[vogais].upper()} temos ')
+    print(f'\nNa palavra {palavras[vogais].upper()} temos ', end = ' ')
+    for letra in palavras[vogais]:
+        if letra in 'AEIOUaeiou':
+            print(letra, end = ' ') 
+            

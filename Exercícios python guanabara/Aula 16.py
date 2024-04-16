@@ -1,4 +1,5 @@
 # Variáveis compostas (tuplas, listas e dicionários)
+# Tuplas são boas para guardar elementos
 
 tupla = 'hamburguer', 'cerveja', 'pizza', 'pudim' # SÃO IMUTÁVEIS!!!!!!!!!!!
 
