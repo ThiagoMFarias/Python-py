@@ -2,3 +2,9 @@
 
 num = []
 maior = menor = 0
+
+for cont in range(0,5):
+    num.append(int(input('Digite um valor: ')))
+
+for c, n in enumerate(num):
+    print(f'Na posição {c} encontrei o valor {v}')
