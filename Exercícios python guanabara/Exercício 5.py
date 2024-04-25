@@ -8,5 +8,4 @@ ant = n1 - 1
 print('O sucessor de {} é {}, e seu antecessor é {}'.format(n1, suc, ant))
 
 # print('O sucessor de {} é {}, e seu antecessor é {}'.format(n1, (n1+1), (n1-1)))
-
 # quanto menos variáveis eu usar no meu programa, mais memória eu economizo!!!
