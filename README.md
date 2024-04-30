@@ -84,3 +84,29 @@
  - [x] **Exercício 63**
  - [x] **Exercício 64**
  - [x] **Exercício 65**
+
+ * Aula 15
+- [x] **Exercício 66**
+- [x] **Exercício 67**
+- [x] **Exercício 68**
+- [x] **Exercício 69**
+- [x] **Exercício 70**
+- [x] **Exercício 71**
+
+* Aula 16
+- [x] **Exercício 72**
+- [x] **Exercício 73**
+- [x] **Exercício 74**
+- [x] **Exercício 75**
+- [x] **Exercício 76**
+- [x] **Exercício 77**
+
+* Aula 17
+- [x] **Exercício 78**
+- [x] **Exercício 79**
+- [x] **Exercício 80**
+- [x] **Exercício 81**
+- [x] **Exercício 82**
+- [x] **Exercício 83**
+
+* Aula 18

@@ -10,7 +10,7 @@ print(f'O menor valor digitado foi {min(num)} na posição {num.index(min(num)) 
 
 listanum = []
 maior = menor = 0
-for c in range(5):
+for c in range(0, 5):
     listanum.append(int(input(f'Digite um valor para a posição {c}: ')))
     if c == 0:
         maior = menor = listanum[c]
@@ -21,7 +21,13 @@ for c in range(5):
             menor = listanum[c]
 print(f'Você digitou os valores {listanum}.')
 print(f'O maior valor digitado foi {maior} nas posições ', end= '')
-
 for indice, valor in enumerate(listanum):
-    if indice == maior:
-        print(f'{indice}', end = ' ')
+    if valor == maior:
+        print(f'{indice}... ', end = ' ')
+
+print(f'\nO menor valor digitado foi {menor} nas posições ', end= '')
+for indice, valor in enumerate(listanum):
+    if valor == menor:
+        print(f'{indice}...', end= '')
+
+
