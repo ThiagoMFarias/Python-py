@@ -25,3 +25,4 @@ elif 19 <= idade < 20:
     print('Sua categoria é SÊNIOR.')
 else:
     print('Sua categoria é MASTER.') 
+    

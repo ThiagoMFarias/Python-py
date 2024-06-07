@@ -29,5 +29,3 @@ print(f'\nO menor valor digitado foi {menor} nas posições ', end= '')
 for indice, valor in enumerate(listanum):
     if valor == menor:
         print(f'{indice}...', end= '')
-
-

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 '''Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário. O programa será interrompido quando o número solicitado for negativo.''' 
 import time
 
@@ -17,7 +16,6 @@ for contagem in range (5, 0, -1):
     print(contagem)
     time.sleep(1)
 print('BUUUUUUUMMMMMMMMMMMMM........')
-=======
 '''Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário. O programa será interrompido quando o número solicitado for negativo.'''
 
 n = 0
@@ -33,4 +31,3 @@ while n >= 0:
     if resp in 'Nn':
         print('Obrigado e volte sempre!')
         break
->>>>>>> 7e386b5a0b50c721ab3b2390de236c1f66b6df5e

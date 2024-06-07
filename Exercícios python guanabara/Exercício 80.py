@@ -4,7 +4,7 @@ lista = []
 
 for cont in range(0,5):
     num = int(input('Digite um valor: '))
-    if cont == 0 or num > lista[-1]: # esse termo seria o úçtimo da lista. Posso fazer assim lista[len(lista - 1)].
+    if cont == 0 or num > lista[-1]: # esse termo seria o último da lista. Posso fazer assim lista[len(lista - 1)].
         lista.append(num)
         print('Adicionado ao final da lista.')
     else:
