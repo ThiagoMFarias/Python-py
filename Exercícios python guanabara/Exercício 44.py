@@ -28,3 +28,4 @@ elif forma_pag == 4:
     print('Você terá um acréscimo na sua conta de 20%. O valor final da compra ficará R$ {:.2f}'.format (juros))
 else:
     print('Digite a opção correta!')
+    

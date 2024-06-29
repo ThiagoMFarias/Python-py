@@ -9,8 +9,8 @@ while True:
         num.append(new_num)
         print('Valor adicionado com sucesso!')
     resp = ''
-    resp = input('Quer continuar? [S/N] ').strip().upper()[0]
-    if resp == 'N':
+    resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
+    if resp in 'Nn':
         break
 print(f'Você digitou os valores {sorted(num)}!')  
       

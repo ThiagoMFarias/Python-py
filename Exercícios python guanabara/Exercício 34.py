@@ -8,3 +8,4 @@ if sal <= 1250:
     print('Você terá um aumento de R$ {:.2f} no seu salário.'.format(aum1))
 else:
     print('Você terá um aumento de R$ {:.2f} no seu salário.'.format(aum2))
+    

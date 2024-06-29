@@ -12,3 +12,4 @@ elif ent < ent1:
     print('O segundo valor é o maior.')
 else:
     print('Os dois valores são iguais.')
+    

@@ -11,4 +11,3 @@ nome = str(input('Digite seu nome completo: ')).strip().split()
 
 print('O primeiro nome dessa pessoa é {}'.format(nome[0]))
 print('O último nome da pessoa é {}'.format(nome[len(nome)-1]))
-
