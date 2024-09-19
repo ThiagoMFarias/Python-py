@@ -1,2 +1,1 @@
-xxxxxxx
-dsddsadsadadsa
+print("olá, mundo")
