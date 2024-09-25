@@ -13,7 +13,7 @@ jogo = {str(input('Primeiro jogador:').title()): randint(1,6),
         str(input('Terceiro jogador: ').title()): randint(1,6),
         str(input('Quarto jogador: ').title()): randint(1,6)}
 
-ranking = list()
+ranking = list ()
 print('Valores sorteados:')
 
 for k, v in jogo.items():
