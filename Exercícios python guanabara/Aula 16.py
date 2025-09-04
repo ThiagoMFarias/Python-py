@@ -8,7 +8,7 @@ print(tupla[0:2]) # lembre-se que nesse fatiamento não contamos com o último �
 print(tupla[1:]) # lembre-se que vai de 1 até o último
 print(tupla[-1]) # É o último elemento. Sempre de trás pra frente! O hamburguer ou é índice -4 ou índice 0.
 print(len(tupla))
-for i in tupla: #(A)
+for i in tupla: # (A)
     print(i)
 """ tupla[1] = 'arroz'
 print(tupla[1]) """
