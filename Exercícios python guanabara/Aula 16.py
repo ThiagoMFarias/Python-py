@@ -1,5 +1,6 @@
 # Variáveis compostas (tuplas, listas e dicionários)
 # Tuplas são boas para guardar elementos
+# Eu posso colocar as tuplas entre parênteses.
 
 tupla = 'hamburguer', 'cerveja', 'pizza', 'pudim' # SÃO IMUTÁVEIS!!!!!!!!!!!
 
@@ -7,7 +8,9 @@ print(tupla[1])
 print(tupla[0:2]) # lembre-se que nesse fatiamento não contamos com o último índice.
 print(tupla[1:]) # lembre-se que vai de 1 até o último
 print(tupla[-1]) # É o último elemento. Sempre de trás pra frente! O hamburguer ou é índice -4 ou índice 0.
+print(tupla[-2:])
 print(len(tupla))
+
 for i in tupla: # (A)
     print(i)
 """ tupla[1] = 'arroz'
