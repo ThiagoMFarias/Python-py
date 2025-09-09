@@ -1,6 +1,6 @@
 '''Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. No final mostre:
 a) quantas vezes apareceu o número 9;
-b) em que posição foiu digitado o primeiro valor 3;
+b) em que posição foi digitado o primeiro valor 3;
 c) quais foram os números pares.'''
 
 num1 = int(input('Digite o primeiro valor: '))
@@ -22,3 +22,10 @@ for cont in range(0, len(tupla)):
     if tupla[cont] % 2 == 0:
         print(f'Os números pares digitados foram {tupla[cont]}.')
         
+# ...existing code...
+# pares = tuple(num for num in tupla if num % 2 == 0)
+# if pares:
+#     print(f'Os números pares digitados foram: {pares}')
+# else:
+#     print('Nenhum número par foi digitado.')
+# ...existing code...

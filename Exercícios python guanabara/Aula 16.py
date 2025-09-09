@@ -28,7 +28,7 @@ for pos, cont in enumerate(tupla):
     print(f'Eu vou comer {tupla} na posição {pos}.')
 
 print(sorted(tupla)) # Aqui a resposta vem em forma de lista!!!
-print(tupla)
+print(tupla)   
 
 a = (2,5,4)
 b = (5,8,1,2)

@@ -9,7 +9,7 @@ while True:
         print(f'Você digitou o número {números[num]}.')
         while True:
             resp = input('Quer continuar? [S/N]').strip().upper()[0]
-            if resp == 'S' or 'N':  # Ainda não consegui resolver esse bug sem ser por função. 
+            if resp == 'S' or 'N':  # Ainda não consegui resolver esse bug sem ser por função, pois se eu digitar outro valor sem ser "n/s" ele vai continuar.
                 break
             else:
                 print('Digite uma resposta válida.')
