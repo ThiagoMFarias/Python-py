@@ -12,5 +12,5 @@ for vogais in range(0, len(palavras)):
     print(f'\nNa palavra {palavras[vogais].upper()} temos ', end = ' ')
     for letra in palavras[vogais]:
         if letra in 'AEIOUaeiou':
-            print(letra.upper(), end = ' ') 
+            print(letra.upper(), end = ' ')  
             
