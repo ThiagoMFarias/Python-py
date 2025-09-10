@@ -36,20 +36,35 @@ print(valores)
 
 num = [2, 5, 9, 1]
 num[2] = 3
+print(num)
+
 num.append(7)
+print(num)
+
 num.sort(reverse=True)
-num.insert(0, 2) # Na posição 0 eu quero adicionar o número 4.
+print(num)
+
+num.insert(0, 4) # Na posição 0 eu quero adicionar o número 4. Eu jogo pra frente o que estava na posição 0.
+print(num)
+
 num.pop(2)
-num.remove(2) #Ele só remove o primeiro elemento
+print(num)
+
+num.remove(2) # Ele só remove o primeiro elemento
 print(num)
 print(f'Essa lista tem {len(num)} elementos.')
+
+if 4 in num:
+    num.remove(4)
+else:
+    print('Não achei o número 4.')
 
 valor = [] # Também poderia usar list() para criar uma lista.
 valor.append(5)
 valor.append(9)
 valor.append(4)
 for v in valor:
-    print(f'{v}...', end = ' ')
+    print(f'{v}...', end = ' ') # O end=' ' serve para colocar todos os elementos na mesma linha.
 
 for pos, v in enumerate(valor):
     print(f'\nNa posição {pos} o valor é {v}.')

@@ -20,7 +20,7 @@ for cont in range(0, len(tupla)):
     print(cont)
 for cont in range(0, len(tupla)):
     print(tupla)
-for cont in range (0, len(tupla)): # É igual a letra A. exibe o mesmo resultado. 
+for cont in range (0, len(tupla)): # É igual a letra A. Exibe o mesmo resultado. 
     print(tupla[cont])
 for cont in range (0, len(tupla)):
     print(f'Vou comer {tupla[cont]} na posição {cont}.')
