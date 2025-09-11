@@ -4,7 +4,7 @@ num = [int(input('Digite um número: ')), int(input('Digite um número: ')), int
 print(f'O maior número da lista foi {max(num)} na posição {num.index(max(num)) + 1}.')
 print(f'O menor valor digitado foi {min(num)} na posição {num.index(min(num)) + 1}.')
 
-#O código acima não elenca o problema de caso o usuário digite dois números iguais, o programa só imprimirá o primeiro deles.
+ # O código acima não elenca o problema de caso o usuário digite dois números iguais, o programa só imprimirá o primeiro deles.
 
 # Segue agora a resposta do professor:
 
@@ -21,11 +21,12 @@ for c in range(0, 5):
             menor = listanum[c]
 print(f'Você digitou os valores {listanum}.')
 print(f'O maior valor digitado foi {maior} nas posições ', end= '')
+
 for indice, valor in enumerate(listanum):
     if valor == maior:
         print(f'{indice}... ', end = ' ')
-
 print(f'\nO menor valor digitado foi {menor} nas posições ', end= '')
+
 for indice, valor in enumerate(listanum):
     if valor == menor:
         print(f'{indice}...', end= '')
