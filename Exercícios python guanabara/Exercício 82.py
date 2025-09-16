@@ -5,14 +5,16 @@ lista_par = []
 lista_ímpar = []
 while True:
     lista.append(int(input('Digite um número: ')))
-    resp = str(input('Quer continuar? [S/N]')).upper().strip()
+    resp = str(input('Quer continuar? [S/N]')).upper().strip()[0]
     if resp in 'Nn':
         break
+
 for c in range(0, len(lista)):
     if lista[c] % 2 == 0:
         lista_par.append(lista[c])        
     else:
         lista_ímpar.append(lista[c])
+        
 print(f'Você digitou aos números {lista}.') 
 print(f'Os números pares digitados foram {lista_par}.')
 print(f'Os números ímpares digitados foram {lista_ímpar}.')

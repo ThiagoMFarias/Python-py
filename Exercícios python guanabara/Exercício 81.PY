@@ -8,7 +8,7 @@ cont = 0
 while True:
     lista.append(int(input('Digite um número: ')))
     cont += 1
-    resp = str(input('Quer continuar? [S/N]')).strip().upper()
+    resp = str(input('Quer continuar? [S/N]')).strip().upper()[0]
     if resp in 'Nn':
         break
 lista.sort(reverse=True)

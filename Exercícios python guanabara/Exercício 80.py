@@ -10,7 +10,7 @@ for cont in range(0,5):
     else:
         pos = 0
         while pos < len(lista):
-            if num <= lista[pos]: #Verifico se o número que eu vou inserir é menor ou igual a ele.
+            if num <= lista[pos]: # Verifico se o número que eu vou inserir é menor ou igual a ele.
                 lista.insert(pos, num)
                 print(f'Adicionado a posição {pos} da lista.')
                 break
