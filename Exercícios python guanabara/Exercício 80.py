@@ -16,4 +16,5 @@ for cont in range(0,5):
                 break
             pos += 1
 print('-=' * 22)
-print(f'Os valores digitados foram {lista}.')     
+print(f'Os valores digitados foram {lista}.')
+print('-=' * 22)   

@@ -20,7 +20,7 @@ for c in range(0, 5):
         if listanum[c] < menor:
             menor = listanum[c]
 print(f'Você digitou os valores {listanum}.')
-print(f'O maior valor digitado foi {maior} na posição ', end= '')
+print(f'O maior valor digitado foi {max(listanum)} na posição ', end= '')
 for indice, valor in enumerate(listanum):
     if valor == maior:
         print(f'{indice}... ', end = ' ')
@@ -29,3 +29,5 @@ print(f'\nO menor valor digitado foi {menor} na posição ', end= '')
 for indice, valor in enumerate(listanum):
     if valor == menor:
         print(f'{indice}...', end= '')
+        break
+    StopIteration
