@@ -8,6 +8,7 @@ while True:
     resp = str(input('Quer continuar? [S/N]')).upper().strip()[0]
     if resp in 'Nn':
         break
+    # Aqui eu ainda não consegui inserir a validação para aceitar apenas S ou N como resposta sem utilizar função. 
 
 for c in range(0, len(lista)):
     if lista[c] % 2 == 0:
