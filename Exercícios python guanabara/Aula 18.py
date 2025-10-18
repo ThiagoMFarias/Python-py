@@ -43,8 +43,8 @@ totmaior = totmenor = 0
 for c in range(0, 3):
     dado.append(str(input('Nome: ')))
     dado.append(int(input('Idade: ')))
-    galera2.append(dado[:])
-    dado.clear()
+    galera2.append(dado[:]) # Se eu esquecer dos dois pontos, a lista vai aparecer vazia já que eles estão ligados.
+    dado.clear() # Limpa a lista para a próxima iteração
 print(galera2)
 for pessoa in galera2:
     if pessoa[1] >= 18:
